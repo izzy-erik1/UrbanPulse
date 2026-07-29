@@ -10,6 +10,13 @@
 
         <!-- entity classes will be added here one by one in the Domain layer step -->
 
+        <class>com.urbanpulse.model.User</class>
+        <class>com.urbanpulse.model.Municipality</class>
+        <class>com.urbanpulse.model.Category</class>
+        <class>com.urbanpulse.model.Issue</class>
+        <class>com.urbanpulse.model.IssuePhoto</class>
+        <class>com.urbanpulse.model.Comment</class>
+        <class>com.urbanpulse.model.Notification</class>
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=urbanpulse;encrypt=true;trustServerCertificate=true"/>
