@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="add custom exception classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/IssueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/MunicipalityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/UserService.java" afterDir="false" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="add AppConfig wiring repositories and services">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/MainApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -40,6 +38,9 @@
     "accountId": "490dcbe9-b386-489c-b7c4-620b1f5aa19a"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -218,7 +219,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785522793144</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add service layer (Auth, User, Municipality, Issue, Comment, Notification">
+      <option name="closed" value="true" />
+      <created>1785523645134</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1785523645134</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add AppConfig wiring repositories and services">
+      <option name="closed" value="true" />
+      <created>1785523930525</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1785523930525</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +254,8 @@
     <MESSAGE value=" implement Hibernate repositories for User, Issue, Comment, Notification, Municipality" />
     <MESSAGE value="edited" />
     <MESSAGE value="add custom exception classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add custom exception classes" />
+    <MESSAGE value="add service layer (Auth, User, Municipality, Issue, Comment, Notification" />
+    <MESSAGE value="add AppConfig wiring repositories and services" />
+    <option name="LAST_COMMIT_MESSAGE" value="add AppConfig wiring repositories and services" />
   </component>
 </project>

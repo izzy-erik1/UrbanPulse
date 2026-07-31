@@ -8,10 +8,9 @@ import javafx.stage.Stage;
 
 public class MainApp extends Application {
     @Override
-    public void start(Stage primaryStage) {
-        StackPane root = new StackPane();
-        root.getChildren().add(new Label("UrbanPulse"));
-
+    public void start(Stage primaryStage) throws Exception {
+        javafx.scene.Parent root = javafx.fxml.FXMLLoader.load(
+                getClass().getResource("/fxml/login.fxml"));
 
         Scene scene = new Scene(root, 800, 600);
 
@@ -19,6 +18,7 @@ public class MainApp extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+
     public static void main(String[] args){
         launch(args);
     }
