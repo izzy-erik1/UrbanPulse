@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment=" implement Hibernate repositories for User, Issue, Comment, Notification, Municipality">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="edited">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/exception/AuthenticationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/exception/DuplicateEmailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/exception/InvalidIssueException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/exception/UnauthorizedException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785518832061</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="edited">
+      <option name="closed" value="true" />
+      <created>1785521968916</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1785521968916</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +226,7 @@
     <MESSAGE value="add util classes (HibernateUtil, PasswordUtil, ValidationUtil, FileStorageUtil, ImageUtil)" />
     <MESSAGE value="add repository intyerfaces" />
     <MESSAGE value=" implement Hibernate repositories for User, Issue, Comment, Notification, Municipality" />
-    <option name="LAST_COMMIT_MESSAGE" value=" implement Hibernate repositories for User, Issue, Comment, Notification, Municipality" />
+    <MESSAGE value="edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited" />
   </component>
 </project>
