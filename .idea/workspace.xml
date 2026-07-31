@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="edited">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/exception/AuthenticationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/exception/DuplicateEmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/exception/InvalidIssueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/exception/UnauthorizedException.java" afterDir="false" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="add custom exception classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/IssueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/MunicipalityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785521968916</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add custom exception classes">
+      <option name="closed" value="true" />
+      <created>1785522793144</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1785522793144</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +236,7 @@
     <MESSAGE value="add repository intyerfaces" />
     <MESSAGE value=" implement Hibernate repositories for User, Issue, Comment, Notification, Municipality" />
     <MESSAGE value="edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited" />
+    <MESSAGE value="add custom exception classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add custom exception classes" />
   </component>
 </project>
