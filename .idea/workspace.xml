@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="add repository intyerfaces">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/repository/impl/hibernate/HibernateCommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/repository/impl/hibernate/HibernateIssueRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/repository/impl/hibernate/HibernateMunicipalityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/repository/impl/hibernate/HibernateNotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/repository/impl/hibernate/HibernateUserRepository.java" afterDir="false" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment=" implement Hibernate repositories for User, Issue, Comment, Notification, Municipality">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.MainApp.executor": "Run",
+    "Maven.UrbanPulse [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
+    "Maven.UrbanPulse [test].executor": "Run",
     "Maven.urbanpulse [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -191,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785518426099</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=" implement Hibernate repositories for User, Issue, Comment, Notification, Municipality">
+      <option name="closed" value="true" />
+      <created>1785518832061</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1785518832061</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +216,7 @@
     <MESSAGE value="layer 2" />
     <MESSAGE value="add util classes (HibernateUtil, PasswordUtil, ValidationUtil, FileStorageUtil, ImageUtil)" />
     <MESSAGE value="add repository intyerfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="add repository intyerfaces" />
+    <MESSAGE value=" implement Hibernate repositories for User, Issue, Comment, Notification, Municipality" />
+    <option name="LAST_COMMIT_MESSAGE" value=" implement Hibernate repositories for User, Issue, Comment, Notification, Municipality" />
   </component>
 </project>

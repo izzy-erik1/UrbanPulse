@@ -20,8 +20,8 @@
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=urbanpulse;encrypt=true;trustServerCertificate=true"/>
-            <property name="jakarta.persistence.jdbc.user" value="your_sql_username"/>
-            <property name="jakarta.persistence.jdbc.password" value="your_sql_password"/>
+            <property name="jakarta.persistence.jdbc.user" value="sa"/>
+            <property name="jakarta.persistence.jdbc.password" value="Ronaldo"/>
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>

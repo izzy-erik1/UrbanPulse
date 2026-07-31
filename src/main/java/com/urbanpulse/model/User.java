@@ -1,10 +1,9 @@
 package com.urbanpulse.model;
 
-import com.urbanpulse.model.enums.IssueStatus;
 import com.urbanpulse.model.enums.UserRole;
 import jakarta.persistence.*;
 
-import javax.xml.stream.events.Comment;
+
 import java.util.ArrayList;
 import java.util.List;
 

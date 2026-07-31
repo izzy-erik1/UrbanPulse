@@ -12,6 +12,7 @@ public class MainApp extends Application {
         StackPane root = new StackPane();
         root.getChildren().add(new Label("UrbanPulse"));
 
+
         Scene scene = new Scene(root, 800, 600);
 
         primaryStage.setTitle("UrbanPulse");
