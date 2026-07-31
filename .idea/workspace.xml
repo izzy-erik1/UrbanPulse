@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="priority">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/model/BaseEntity.java" afterDir="false" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="layer 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/util/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/util/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/util/ValidationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/util/FileStorageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/util/FileStorageUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +135,47 @@
       <option name="project" value="LOCAL" />
       <updated>1785311627852</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="base entity">
+      <option name="closed" value="true" />
+      <created>1785312630393</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1785312630393</updated>
+    </task>
+    <task id="LOCAL-00006" summary="models">
+      <option name="closed" value="true" />
+      <created>1785331403895</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1785331403895</updated>
+    </task>
+    <task id="LOCAL-00007" summary="models">
+      <option name="closed" value="true" />
+      <created>1785331484413</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1785331484413</updated>
+    </task>
+    <task id="LOCAL-00008" summary="persistence">
+      <option name="closed" value="true" />
+      <created>1785331548393</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1785331548393</updated>
+    </task>
+    <task id="LOCAL-00009" summary="layer 2">
+      <option name="closed" value="true" />
+      <created>1785507368324</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1785507368324</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +185,10 @@
     <MESSAGE value="main app" />
     <MESSAGE value="ISSUE STSTAUS" />
     <MESSAGE value="priority" />
-    <option name="LAST_COMMIT_MESSAGE" value="priority" />
+    <MESSAGE value="base entity" />
+    <MESSAGE value="models" />
+    <MESSAGE value="persistence" />
+    <MESSAGE value="layer 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="layer 2" />
   </component>
 </project>
