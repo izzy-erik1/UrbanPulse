@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="add register screen and controller, verified signup+login end to end">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/dashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/LoginController.java" afterDir="false" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="add dashboard screen, wire login navigation to dashboard">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/IssueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/issue.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/IssueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/IssueService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785571375280</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add dashboard screen, wire login navigation to dashboard">
+      <option name="closed" value="true" />
+      <created>1785572058415</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1785572058415</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +283,7 @@
     <MESSAGE value="add AppConfig wiring repositories and services" />
     <MESSAGE value=" add login screen and controller" />
     <MESSAGE value="add register screen and controller, verified signup+login end to end" />
-    <option name="LAST_COMMIT_MESSAGE" value="add register screen and controller, verified signup+login end to end" />
+    <MESSAGE value="add dashboard screen, wire login navigation to dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dashboard screen, wire login navigation to dashboard" />
   </component>
 </project>

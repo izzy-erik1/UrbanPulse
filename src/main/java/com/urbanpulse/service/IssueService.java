@@ -57,4 +57,13 @@ public class IssueService {
     public List<Issue> getAll() {
         return issueRepository.findAll();
     }
+
+    public java.util.List<Category> getAllCategories() {
+        jakarta.persistence.EntityManager em = com.urbanpulse.util.HibernateUtil.getEntityManager();
+        try {
+            return em.createQuery("SELECT c FROM Category c", Category.class).getResultList();
+        } finally {
+            em.close();
+        }
+    }
 }

@@ -45,8 +45,20 @@ public class DashboardController {
     }
 
     @FXML
-    private void handleNewIssue() {
-        // Wired up in the Issue screen step
+    private void handleNewIssue() {// wired after getting for next level
+        try {
+            javafx.fxml.FXMLLoader loader = new javafx.fxml.FXMLLoader(
+                    getClass().getResource("/fxml/issue.fxml"));
+            javafx.scene.Parent root = loader.load();
+
+            IssueController issueController = loader.getController();
+            issueController.setCurrentUser(currentUser);
+
+            javafx.stage.Stage stage = (javafx.stage.Stage) welcomeLabel.getScene().getWindow();
+            stage.setScene(new javafx.scene.Scene(root, 900, 600));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @FXML
