@@ -21,11 +21,23 @@ public class LoginController {
 
         try {
             User user = AppConfig.getInstance().getAuthService().login(email, password);
-            errorLabel.setStyle("-fx-text-fill: green;");
-            errorLabel.setText("Welcome, " + user.getName() + "! (Dashboard screen comes in a later step)");
+
+            javafx.fxml.FXMLLoader loader = new javafx.fxml.FXMLLoader(
+                    getClass().getResource("/fxml/dashboard.fxml"));
+            javafx.scene.Parent root = loader.load();
+
+            DashboardController dashboardController = loader.getController();
+            dashboardController.setCurrentUser(user);
+
+            javafx.stage.Stage stage = (javafx.stage.Stage) emailField.getScene().getWindow();
+            stage.setScene(new javafx.scene.Scene(root, 900, 600));
+
         } catch (AuthenticationException e) {
             errorLabel.setStyle("-fx-text-fill: red;");
             errorLabel.setText(e.getMessage());
+        } catch (Exception e) {
+            errorLabel.setStyle("-fx-text-fill: red;");
+            errorLabel.setText("Something went wrong loading the dashboard.");
         }
     }
 
