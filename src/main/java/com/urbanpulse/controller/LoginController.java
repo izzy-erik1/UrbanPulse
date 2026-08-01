@@ -40,10 +40,17 @@ public class LoginController {
             errorLabel.setText("Something went wrong loading the dashboard.");
         }
     }
-
     @FXML
     private void handleGoToRegister() {
-        errorLabel.setStyle("-fx-text-fill: orange;");
-        errorLabel.setText("Register screen comes in the next step.");
+        try {
+            javafx.fxml.FXMLLoader loader = new javafx.fxml.FXMLLoader(
+                    getClass().getResource("/fxml/register.fxml"));
+            javafx.scene.Parent root = loader.load();
+
+            javafx.stage.Stage stage = (javafx.stage.Stage) emailField.getScene().getWindow();
+            stage.setScene(new javafx.scene.Scene(root, 800, 600));
+        } catch (Exception e) {
+            errorLabel.setText("Could not open register screen.");
+        }
     }
 }
