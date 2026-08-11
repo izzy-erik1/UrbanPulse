@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="add issue screen with creation and commenting">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/MainApp.java" afterDir="false" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="wire real navigation between login and register screens">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/model/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/model/Notification.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785572858316</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="wire real navigation between login and register screens">
+      <option name="closed" value="true" />
+      <created>1785573627298</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1785573627298</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +300,7 @@
     <MESSAGE value="add register screen and controller, verified signup+login end to end" />
     <MESSAGE value="add dashboard screen, wire login navigation to dashboard" />
     <MESSAGE value="add issue screen with creation and commenting" />
-    <option name="LAST_COMMIT_MESSAGE" value="add issue screen with creation and commenting" />
+    <MESSAGE value="wire real navigation between login and register screens" />
+    <option name="LAST_COMMIT_MESSAGE" value="wire real navigation between login and register screens" />
   </component>
 </project>

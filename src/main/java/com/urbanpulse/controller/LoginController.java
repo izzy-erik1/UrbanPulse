@@ -35,9 +35,10 @@ public class LoginController {
         } catch (AuthenticationException e) {
             errorLabel.setStyle("-fx-text-fill: red;");
             errorLabel.setText(e.getMessage());
-        } catch (Exception e) {
+        }catch (Exception e) {
+            e.printStackTrace();
             errorLabel.setStyle("-fx-text-fill: red;");
-            errorLabel.setText("Something went wrong loading the dashboard.");
+            errorLabel.setText("Something went wrong loading the dashboard: " + e.getMessage());
         }
     }
     @FXML
