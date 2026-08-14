@@ -8,7 +8,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="12" xmlns="http://javafx.com/javafx"
+<VBox alignment="CENTER" spacing="12"  stylesheets="@../styles/main.css"    xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml" fx:controller="com.urbanpulse.controller.RegisterController">
     <padding>
         <Insets top="40" right="40" bottom="40" left="40"/>

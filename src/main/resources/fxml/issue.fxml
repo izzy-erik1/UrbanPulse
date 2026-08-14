@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox spacing="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+<VBox spacing="10" xmlns="http://javafx.com/javafx" stylesheets="@../styles/main.css" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.urbanpulse.controller.IssueController">
     <padding>
         <Insets top="20" right="20" bottom="20" left="20"/>

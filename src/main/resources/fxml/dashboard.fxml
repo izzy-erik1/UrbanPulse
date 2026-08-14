@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+<BorderPane xmlns="http://javafx.com/javafx" stylesheets="@../styles/main.css" xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.urbanpulse.controller.DashboardController">
     <top>
         <HBox alignment="CENTER_LEFT" spacing="12" style="-fx-background-color: #2c3e50; -fx-padding: 12;">
@@ -16,6 +16,7 @@
             <Label fx:id="notificationCountLabel" style="-fx-text-fill: #f1c40f;"/>
             <Button text="Report New Issue" onAction="#handleNewIssue"/>
             <Button text="Profile" onAction="#handleProfile"/>
+            <Button fx:id="adminButton" text="Admin Panel" onAction="#handleAdminPanel" visible="false" managed="false"/>
         </HBox>
     </top>
 

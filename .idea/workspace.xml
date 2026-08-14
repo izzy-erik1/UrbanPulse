@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="wire real navigation between login and register screens">
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment=" rename reserved-keyword 'read' column to is_read in Notification entity&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/admin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/profile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/model/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/model/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/issue.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/issue.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/register.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785573627298</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary=" rename reserved-keyword 'read' column to is_read in Notification entity&quot;">
+      <option name="closed" value="true" />
+      <created>1786448977763</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1786448977763</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +317,7 @@
     <MESSAGE value="add dashboard screen, wire login navigation to dashboard" />
     <MESSAGE value="add issue screen with creation and commenting" />
     <MESSAGE value="wire real navigation between login and register screens" />
-    <option name="LAST_COMMIT_MESSAGE" value="wire real navigation between login and register screens" />
+    <MESSAGE value=" rename reserved-keyword 'read' column to is_read in Notification entity&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value=" rename reserved-keyword 'read' column to is_read in Notification entity&quot;" />
   </component>
 </project>
