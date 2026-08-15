@@ -5,13 +5,13 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox spacing="10" xmlns="http://javafx.com/javafx" stylesheets="@../styles/main.css" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.urbanpulse.controller.IssueController">
+<VBox spacing="12" maxWidth="600" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.urbanpulse.controller.IssueController" stylesheets="@../styles/main.css">
     <padding>
         <Insets top="20" right="20" bottom="20" left="20"/>
     </padding>
 
-    <Label text="Report New Issue" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+    <Label text="Report New Issue" styleClass="title-label"/>
 
     <TextField fx:id="titleField" promptText="Issue title"/>
     <TextArea fx:id="descriptionField" promptText="Description" prefRowCount="3"/>
@@ -27,7 +27,7 @@
 
     <Separator/>
 
-    <Label text="Comments (select an issue on the dashboard first)" style="-fx-font-weight: bold;"/>
+    <Label text="Comments" styleClass="title-label" style="-fx-font-size: 15px;"/>
     <ListView fx:id="commentsListView" prefHeight="150"/>
     <HBox spacing="10">
         <TextField fx:id="newCommentField" promptText="Add a comment..." HBox.hgrow="ALWAYS"/>

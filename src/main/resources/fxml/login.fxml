@@ -5,21 +5,26 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="12" stylesheets="@../styles/main.css" xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml" fx:controller="com.urbanpulse.controller.LoginController">
-    <padding>
-        <Insets top="40" right="40" bottom="40" left="40"/>
-    </padding>
+<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.urbanpulse.controller.LoginController"
+           stylesheets="@../styles/main.css">
+    <VBox alignment="CENTER" spacing="12" maxWidth="360" styleClass="card">
+        <padding>
+            <Insets top="30" right="30" bottom="30" left="30"/>
+        </padding>
 
-    <Label text="UrbanPulse Login" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+        <Label text="UrbanPulse Login" styleClass="title-label"/>
 
-    <TextField fx:id="emailField" promptText="Email"/>
-    <PasswordField fx:id="passwordField" promptText="Password"/>
+        <TextField fx:id="emailField" promptText="Email"/>
+        <PasswordField fx:id="passwordField" promptText="Password"/>
 
-    <Button text="Login" onAction="#handleLogin"/>
-    <Label fx:id="errorLabel" style="-fx-text-fill: red;"/>
+        <Button text="Login" onAction="#handleLogin" maxWidth="Infinity"/>
+        <Label fx:id="errorLabel"/>
 
-    <Button text="Don't have an account? Register" onAction="#handleGoToRegister" style="-fx-background-color: transparent;"/>
-</VBox>
+        <Button text="Don't have an account? Register" onAction="#handleGoToRegister"
+                style="-fx-background-color: transparent; -fx-text-fill: #2c3e50; -fx-underline: true;"/>
+    </VBox>
+</StackPane>

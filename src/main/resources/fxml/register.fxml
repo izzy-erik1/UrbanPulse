@@ -6,23 +6,28 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="12"  stylesheets="@../styles/main.css"    xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml" fx:controller="com.urbanpulse.controller.RegisterController">
-    <padding>
-        <Insets top="40" right="40" bottom="40" left="40"/>
-    </padding>
+<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.urbanpulse.controller.RegisterController"
+           stylesheets="@../styles/main.css">
+    <VBox alignment="CENTER" spacing="12" maxWidth="360" styleClass="card">
+        <padding>
+            <Insets top="30" right="30" bottom="30" left="30"/>
+        </padding>
 
-    <Label text="UrbanPulse Register" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+        <Label text="UrbanPulse Register" styleClass="title-label"/>
 
-    <TextField fx:id="nameField" promptText="Full name"/>
-    <TextField fx:id="emailField" promptText="Email"/>
-    <PasswordField fx:id="passwordField" promptText="Password (min 8 characters)"/>
-    <ComboBox fx:id="roleComboBox" promptText="Role"/>
+        <TextField fx:id="nameField" promptText="Full name"/>
+        <TextField fx:id="emailField" promptText="Email"/>
+        <PasswordField fx:id="passwordField" promptText="Password (min 8 characters)"/>
+        <ComboBox fx:id="roleComboBox" promptText="Role" maxWidth="Infinity"/>
 
-    <Button text="Register" onAction="#handleRegister"/>
-    <Label fx:id="messageLabel"/>
+        <Button text="Register" onAction="#handleRegister" maxWidth="Infinity"/>
+        <Label fx:id="messageLabel"/>
 
-    <Button text="Already have an account? Login" onAction="#handleGoToLogin" style="-fx-background-color: transparent;"/>
-</VBox>
+        <Button text="Already have an account? Login" onAction="#handleGoToLogin"
+                style="-fx-background-color: transparent; -fx-text-fill: #2c3e50; -fx-underline: true;"/>
+    </VBox>
+</StackPane>
