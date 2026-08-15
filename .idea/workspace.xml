@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="feat: annotate service classes as Spring beans">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/UserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="feat: add AuthController with register endpoint">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/LoginRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,14 +344,21 @@
       <option name="project" value="LOCAL" />
       <updated>1786811275806</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="feat: add AuthController with register endpoint">
+      <option name="closed" value="true" />
+      <created>1786816107513</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1786816107513</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="models" />
     <MESSAGE value="persistence" />
     <MESSAGE value="layer 2" />
     <MESSAGE value="add util classes (HibernateUtil, PasswordUtil, ValidationUtil, FileStorageUtil, ImageUtil)" />
@@ -379,6 +383,7 @@
     <MESSAGE value="add Spring Boot ApiApplication entry point" />
     <MESSAGE value="feat: annotate Hibernate repositories as Spring beans" />
     <MESSAGE value="feat: annotate service classes as Spring beans" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: annotate service classes as Spring beans" />
+    <MESSAGE value="feat: add AuthController with register endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add AuthController with register endpoint" />
   </component>
 </project>
