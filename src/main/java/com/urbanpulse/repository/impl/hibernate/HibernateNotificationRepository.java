@@ -4,10 +4,12 @@ import com.urbanpulse.model.Notification;
 import com.urbanpulse.repository.NotificationRepository;
 import com.urbanpulse.util.HibernateUtil;
 import jakarta.persistence.EntityManager;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Repository
 public class HibernateNotificationRepository implements NotificationRepository {
 
     @Override

@@ -4,10 +4,12 @@ import com.urbanpulse.model.Comment;
 import com.urbanpulse.repository.CommentRepository;
 import com.urbanpulse.util.HibernateUtil;
 import jakarta.persistence.EntityManager;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Repository
 public class HibernateCommentRepository implements CommentRepository {
 
     @Override

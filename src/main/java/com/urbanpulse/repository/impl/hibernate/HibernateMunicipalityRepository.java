@@ -4,10 +4,12 @@ import com.urbanpulse.model.Municipality;
 import com.urbanpulse.repository.MunicipalityRepository;
 import com.urbanpulse.util.HibernateUtil;
 import jakarta.persistence.EntityManager;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Repository
 public class HibernateMunicipalityRepository implements MunicipalityRepository {
 
     @Override

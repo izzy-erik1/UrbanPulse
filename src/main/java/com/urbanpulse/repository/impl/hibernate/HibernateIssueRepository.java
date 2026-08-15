@@ -5,10 +5,12 @@ import com.urbanpulse.model.enums.IssueStatus;
 import com.urbanpulse.repository.IssueRepository;
 import com.urbanpulse.util.HibernateUtil;
 import jakarta.persistence.EntityManager;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Repository
 public class HibernateIssueRepository implements IssueRepository {
 
     @Override

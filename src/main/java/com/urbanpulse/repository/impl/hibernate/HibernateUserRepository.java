@@ -4,10 +4,12 @@ import com.urbanpulse.model.User;
 import com.urbanpulse.repository.UserRepository;
 import com.urbanpulse.util.HibernateUtil;
 import jakarta.persistence.EntityManager;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Repository
 public class HibernateUserRepository implements UserRepository {
 
     @Override

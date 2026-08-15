@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="style: rwork css and layouts for centered cards and proper fielsd sizing">
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="add Spring Boot ApiApplication entry point">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +30,12 @@
     &quot;assignee&quot;: &quot;izzy-erik1&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/izzy-erik1/UrbanPulse.git",
-    "accountId": "490dcbe9-b386-489c-b7c4-620b1f5aa19a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/izzy-erik1/UrbanPulse.git&quot;,
+    &quot;accountId&quot;: &quot;490dcbe9-b386-489c-b7c4-620b1f5aa19a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -300,15 +300,37 @@
       <option name="project" value="LOCAL" />
       <updated>1786782136159</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary=" Phase 1 MVP complete&#10; v1.0-phase1">
+      <option name="closed" value="true" />
+      <created>1786792483841</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1786792483841</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added spring boot dependencies to pom.xml for phase 2">
+      <option name="closed" value="true" />
+      <created>1786809830951</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1786809830951</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add Spring Boot ApiApplication entry point">
+      <option name="closed" value="true" />
+      <created>1786810400726</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1786810400726</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main app" />
-    <MESSAGE value="ISSUE STSTAUS" />
     <MESSAGE value="priority" />
     <MESSAGE value="base entity" />
     <MESSAGE value="models" />
@@ -331,6 +353,9 @@
     <MESSAGE value="project README" />
     <MESSAGE value="fix: add &quot;toString()&quot; to Category and Municipality for dropdown display" />
     <MESSAGE value="style: rwork css and layouts for centered cards and proper fielsd sizing" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: rwork css and layouts for centered cards and proper fielsd sizing" />
+    <MESSAGE value=" Phase 1 MVP complete&#10; v1.0-phase1" />
+    <MESSAGE value="added spring boot dependencies to pom.xml for phase 2" />
+    <MESSAGE value="add Spring Boot ApiApplication entry point" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Spring Boot ApiApplication entry point" />
   </component>
 </project>
