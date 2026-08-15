@@ -35,4 +35,8 @@ public class Municipality extends BaseEntity {
     public String getContactEmail() { return contactEmail; }
     public void setContactEmail(String contactEmail) { this.contactEmail = contactEmail; }
     public List<Issue> getIssues() { return issues; }
+    @Override
+    public String toString() {
+        return name;
+    }
 }

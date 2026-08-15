@@ -29,4 +29,8 @@ public class Category extends BaseEntity {
     public String getDescription() { return description; }
     public void setDescription(String description) { this.description = description; }
     public List<Issue> getIssues() { return issues; }
+    @Override
+    public String toString() {
+        return name;
+    }
 }
