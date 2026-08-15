@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="add Spring Boot ApiApplication entry point">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="feat: annotate Hibernate repositories as Spring beans" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -324,14 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1786810400726</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="feat: annotate Hibernate repositories as Spring beans">
+      <option name="closed" value="true" />
+      <created>1786810943757</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1786810943757</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="priority" />
     <MESSAGE value="base entity" />
     <MESSAGE value="models" />
     <MESSAGE value="persistence" />
@@ -356,6 +361,7 @@
     <MESSAGE value=" Phase 1 MVP complete&#10; v1.0-phase1" />
     <MESSAGE value="added spring boot dependencies to pom.xml for phase 2" />
     <MESSAGE value="add Spring Boot ApiApplication entry point" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Spring Boot ApiApplication entry point" />
+    <MESSAGE value="feat: annotate Hibernate repositories as Spring beans" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: annotate Hibernate repositories as Spring beans" />
   </component>
 </project>

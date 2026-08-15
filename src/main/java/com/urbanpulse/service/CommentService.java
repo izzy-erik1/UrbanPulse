@@ -6,9 +6,11 @@ import com.urbanpulse.model.Issue;
 import com.urbanpulse.model.User;
 import com.urbanpulse.repository.CommentRepository;
 import com.urbanpulse.util.ValidationUtil;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class CommentService {
 
     private final CommentRepository commentRepository;

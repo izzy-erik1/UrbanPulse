@@ -7,9 +7,11 @@ import com.urbanpulse.model.enums.UserRole;
 import com.urbanpulse.repository.UserRepository;
 import com.urbanpulse.util.PasswordUtil;
 import com.urbanpulse.util.ValidationUtil;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
+@Service
 public class AuthService {
 
     private final UserRepository userRepository;

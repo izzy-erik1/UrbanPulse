@@ -3,10 +3,13 @@ package com.urbanpulse.service;
 import com.urbanpulse.model.Notification;
 import com.urbanpulse.model.User;
 import com.urbanpulse.repository.NotificationRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+
+@Service
 public class NotificationService {
 
     private final NotificationRepository notificationRepository;

@@ -4,7 +4,9 @@ import com.urbanpulse.exception.ResourceNotFoundException;
 import com.urbanpulse.model.User;
 import com.urbanpulse.repository.UserRepository;
 import com.urbanpulse.util.ValidationUtil;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserService {
 
     private final UserRepository userRepository;

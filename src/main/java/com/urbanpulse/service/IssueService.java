@@ -10,9 +10,11 @@ import com.urbanpulse.model.enums.IssueStatus;
 import com.urbanpulse.model.enums.Priority;
 import com.urbanpulse.repository.IssueRepository;
 import com.urbanpulse.util.ValidationUtil;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class IssueService {
 
     private final IssueRepository issueRepository;

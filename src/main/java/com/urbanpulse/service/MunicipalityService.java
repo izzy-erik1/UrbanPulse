@@ -3,9 +3,11 @@ package com.urbanpulse.service;
 import com.urbanpulse.exception.ResourceNotFoundException;
 import com.urbanpulse.model.Municipality;
 import com.urbanpulse.repository.MunicipalityRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class MunicipalityService {
 
     private final MunicipalityRepository municipalityRepository;
