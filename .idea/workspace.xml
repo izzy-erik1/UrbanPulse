@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="feat: add JWT token generation on login" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="fix: exclude conflicting old jackson-databind from jjwt-jackson dependency" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -366,14 +366,21 @@
       <option name="project" value="LOCAL" />
       <updated>1786889158300</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="fix: exclude conflicting old jackson-databind from jjwt-jackson dependency">
+      <option name="closed" value="true" />
+      <created>1786890351425</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1786890351425</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add util classes (HibernateUtil, PasswordUtil, ValidationUtil, FileStorageUtil, ImageUtil)" />
     <MESSAGE value="add repository intyerfaces" />
     <MESSAGE value=" implement Hibernate repositories for User, Issue, Comment, Notification, Municipality" />
     <MESSAGE value="edited" />
@@ -398,6 +405,7 @@
     <MESSAGE value="feat: add AuthController with register endpoint" />
     <MESSAGE value=" add login endpoint to AuthController" />
     <MESSAGE value="feat: add JWT token generation on login" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add JWT token generation on login" />
+    <MESSAGE value="fix: exclude conflicting old jackson-databind from jjwt-jackson dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: exclude conflicting old jackson-databind from jjwt-jackson dependency" />
   </component>
 </project>
