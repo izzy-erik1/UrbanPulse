@@ -1,5 +1,6 @@
 package com.urbanpulse.api.controller;
 
+import com.urbanpulse.api.dto.LoginResponse;
 import com.urbanpulse.api.dto.RegisterRequest;
 import com.urbanpulse.api.dto.UserResponse;
 import com.urbanpulse.model.User;
@@ -10,6 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.urbanpulse.api.dto.LoginRequest;
 
+
+
+import com.urbanpulse.util.JwtUtil;
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
@@ -30,9 +34,11 @@ public class AuthController {
         );
         return new UserResponse(user);
     }
+
     @PostMapping("/login")
-    public UserResponse login(@RequestBody LoginRequest request) {
+    public LoginResponse login(@RequestBody LoginRequest request) {
         User user = authService.login(request.getEmail(), request.getPassword());
-        return new UserResponse(user);
+        String token = JwtUtil.generateToken(user.getId(), user.getEmail());
+        return new LoginResponse(new UserResponse(user), token);
     }
 }
