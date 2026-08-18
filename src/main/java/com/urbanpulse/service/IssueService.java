@@ -68,4 +68,15 @@ public class IssueService {
             em.close();
         }
     }
+    public Issue createIssueFromIds(String title, String description, Priority priority,
+                                    User reporter, Long municipalityId, Long categoryId) {
+        jakarta.persistence.EntityManager em = com.urbanpulse.util.HibernateUtil.getEntityManager();
+        try {
+            Municipality municipality = em.find(Municipality.class, municipalityId);
+            Category category = em.find(Category.class, categoryId);
+            return createIssue(title, description, priority, reporter, municipality, category);
+        } finally {
+            em.close();
+        }
+    }
 }

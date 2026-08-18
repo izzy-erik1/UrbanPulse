@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="fix: exclude conflicting old jackson-databind from jjwt-jackson dependency" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="add JWT authentication filter for protected endpoints">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/controller/IssueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/IssueRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/IssueResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/IssueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/IssueService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -374,14 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1786890351425</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add JWT authentication filter for protected endpoints">
+      <option name="closed" value="true" />
+      <created>1786890796094</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1786890796094</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add repository intyerfaces" />
     <MESSAGE value=" implement Hibernate repositories for User, Issue, Comment, Notification, Municipality" />
     <MESSAGE value="edited" />
     <MESSAGE value="add custom exception classes" />
@@ -406,6 +419,7 @@
     <MESSAGE value=" add login endpoint to AuthController" />
     <MESSAGE value="feat: add JWT token generation on login" />
     <MESSAGE value="fix: exclude conflicting old jackson-databind from jjwt-jackson dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: exclude conflicting old jackson-databind from jjwt-jackson dependency" />
+    <MESSAGE value="add JWT authentication filter for protected endpoints" />
+    <option name="LAST_COMMIT_MESSAGE" value="add JWT authentication filter for protected endpoints" />
   </component>
 </project>
