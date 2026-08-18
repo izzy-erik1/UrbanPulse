@@ -30,4 +30,9 @@ public class CommentService {
     public List<Comment> getByIssue(Long issueId) {
         return commentRepository.findByIssue(issueId);
     }
+
+    public Comment addCommentFromIssueId(String content, Long issueId, User author, IssueService issueService) {
+        Issue issue = issueService.getById(issueId);
+        return addComment(content, issue, author);
+    }
 }
