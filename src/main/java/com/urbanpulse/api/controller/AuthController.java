@@ -19,9 +19,11 @@ import com.urbanpulse.util.JwtUtil;
 public class AuthController {
 
     private final AuthService authService;
+    private final JwtUtil jwtUtil;
 
-    public AuthController(AuthService authService) {
+    public AuthController(AuthService authService, JwtUtil jwtUtil) {
         this.authService = authService;
+        this.jwtUtil = jwtUtil;
     }
 
     @PostMapping("/register")
@@ -38,7 +40,7 @@ public class AuthController {
     @PostMapping("/login")
     public LoginResponse login(@RequestBody LoginRequest request) {
         User user = authService.login(request.getEmail(), request.getPassword());
-        String token = JwtUtil.generateToken(user.getId(), user.getEmail());
+        String token = jwtUtil.generateToken(user.getId(), user.getEmail());
         return new LoginResponse(new UserResponse(user), token);
     }
 }

@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment=" add IssueController with list and create endpoints">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/controller/NotificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/CommentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/CommentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/NotificationResponse.java" afterDir="false" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="feat: add CommentController and NotificationController">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/security/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +35,12 @@
     &quot;assignee&quot;: &quot;izzy-erik1&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/izzy-erik1/UrbanPulse.git",
-    "accountId": "490dcbe9-b386-489c-b7c4-620b1f5aa19a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/izzy-erik1/UrbanPulse.git&quot;,
+    &quot;accountId&quot;: &quot;490dcbe9-b386-489c-b7c4-620b1f5aa19a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -398,14 +397,21 @@
       <option name="project" value="LOCAL" />
       <updated>1787048733164</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="feat: add CommentController and NotificationController">
+      <option name="closed" value="true" />
+      <created>1787050278424</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1787050278424</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edited" />
     <MESSAGE value="add custom exception classes" />
     <MESSAGE value="add service layer (Auth, User, Municipality, Issue, Comment, Notification" />
     <MESSAGE value="add AppConfig wiring repositories and services" />
@@ -430,6 +436,7 @@
     <MESSAGE value="fix: exclude conflicting old jackson-databind from jjwt-jackson dependency" />
     <MESSAGE value="add JWT authentication filter for protected endpoints" />
     <MESSAGE value=" add IssueController with list and create endpoints" />
-    <option name="LAST_COMMIT_MESSAGE" value=" add IssueController with list and create endpoints" />
+    <MESSAGE value="feat: add CommentController and NotificationController" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add CommentController and NotificationController" />
   </component>
 </project>

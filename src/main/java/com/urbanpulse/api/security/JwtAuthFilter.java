@@ -13,12 +13,20 @@ import java.io.IOException;
 
 @Component
 public class JwtAuthFilter extends OncePerRequestFilter {
+    private final JwtUtil jwtUtil;
+
+    public JwtAuthFilter(JwtUtil jwtUtil) {
+        this.jwtUtil = jwtUtil;
+    }
 
     // Endpoints that don't require a token — login/register have to be reachable
     // before you have one.
     private static final String[] PUBLIC_PATHS = {
             "/api/auth/register",
-            "/api/auth/login"
+            "/api/auth/login",
+            "/swagger-ui.html",
+            "/swagger-ui",
+            "/v3/api-docs"
     };
 
     @Override
@@ -27,7 +35,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
 
         String path = request.getRequestURI();
         for (String publicPath : PUBLIC_PATHS) {
-            if (path.equals(publicPath)) {
+            if (path.equals(publicPath) || path.startsWith(publicPath + "/") || path.startsWith(publicPath)) {
                 filterChain.doFilter(request, response);
                 return;
             }
@@ -42,7 +50,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
 
         String token = authHeader.substring(7);
         try {
-            Claims claims = JwtUtil.validateAndParse(token);
+            Claims claims = jwtUtil.validateAndParse(token);
             request.setAttribute("userId", claims.get("userId", Long.class));
             request.setAttribute("userEmail", claims.getSubject());
         } catch (Exception e) {
