@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="chore: Phase 2 REST API complete &#10;v2 complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/config/CorsConfig.java" afterDir="false" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="fix: correct CORS filter ordering so headers apply before JWT auth rejection">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/controller/LookupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/CategoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/MunicipalityResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/security/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/urbanpulse/api/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -418,14 +421,21 @@
       <option name="project" value="LOCAL" />
       <updated>1787168561300</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="fix: correct CORS filter ordering so headers apply before JWT auth rejection">
+      <option name="closed" value="true" />
+      <created>1787221294981</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1787221294981</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add AppConfig wiring repositories and services" />
     <MESSAGE value=" add login screen and controller" />
     <MESSAGE value="add register screen and controller, verified signup+login end to end" />
     <MESSAGE value="add dashboard screen, wire login navigation to dashboard" />
@@ -450,6 +460,7 @@
     <MESSAGE value="feat: add CommentController and NotificationController" />
     <MESSAGE value="refactor: move JWT secret and DB config into application.properties" />
     <MESSAGE value="chore: Phase 2 REST API complete &#10;v2 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: Phase 2 REST API complete &#10;v2 complete" />
+    <MESSAGE value="fix: correct CORS filter ordering so headers apply before JWT auth rejection" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: correct CORS filter ordering so headers apply before JWT auth rejection" />
   </component>
 </project>

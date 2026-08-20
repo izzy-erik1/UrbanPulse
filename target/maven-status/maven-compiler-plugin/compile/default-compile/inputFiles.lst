@@ -1,13 +1,16 @@
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\controller\AuthController.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\controller\CommentController.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\controller\IssueController.java
+C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\controller\LookupController.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\controller\NotificationController.java
+C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\CategoryResponse.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\CommentRequest.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\CommentResponse.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\IssueRequest.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\IssueResponse.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\LoginRequest.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\LoginResponse.java
+C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\MunicipalityResponse.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\NotificationResponse.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\RegisterRequest.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\UserResponse.java
