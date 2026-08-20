@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="refactor: move JWT secret and DB config into application.properties">
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="chore: Phase 2 REST API complete &#10;v2 complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/config/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/security/JwtAuthFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -408,14 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1787165340340</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="chore: Phase 2 REST API complete &#10;v2 complete">
+      <option name="closed" value="true" />
+      <created>1787168561300</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1787168561300</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add service layer (Auth, User, Municipality, Issue, Comment, Notification" />
     <MESSAGE value="add AppConfig wiring repositories and services" />
     <MESSAGE value=" add login screen and controller" />
     <MESSAGE value="add register screen and controller, verified signup+login end to end" />
@@ -440,6 +449,7 @@
     <MESSAGE value=" add IssueController with list and create endpoints" />
     <MESSAGE value="feat: add CommentController and NotificationController" />
     <MESSAGE value="refactor: move JWT secret and DB config into application.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: move JWT secret and DB config into application.properties" />
+    <MESSAGE value="chore: Phase 2 REST API complete &#10;v2 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Phase 2 REST API complete &#10;v2 complete" />
   </component>
 </project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.urbanpulse.controller.RegisterController"
+           stylesheets="@../styles/main.css">
+    <VBox alignment="CENTER" spacing="12" maxWidth="360" styleClass="card">
+        <padding>
+            <Insets top="30" right="30" bottom="30" left="30"/>
+        </padding>
+
+        <Label text="UrbanPulse Register" styleClass="title-label"/>
+
+        <TextField fx:id="nameField" promptText="Full name"/>
+        <TextField fx:id="emailField" promptText="Email"/>
+        <PasswordField fx:id="passwordField" promptText="Password (min 8 characters)"/>
+        <ComboBox fx:id="roleComboBox" promptText="Role" maxWidth="Infinity"/>
+
+        <Button text="Register" onAction="#handleRegister" maxWidth="Infinity"/>
+        <Label fx:id="messageLabel"/>
+
+        <Button text="Already have an account? Login" onAction="#handleGoToLogin"
+                style="-fx-background-color: transparent; -fx-text-fill: #2c3e50; -fx-underline: true;"/>
+    </VBox>
+</StackPane>

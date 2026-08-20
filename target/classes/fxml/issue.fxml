@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="12" maxWidth="600" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.urbanpulse.controller.IssueController" stylesheets="@../styles/main.css">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="Report New Issue" styleClass="title-label"/>
+
+    <TextField fx:id="titleField" promptText="Issue title"/>
+    <TextArea fx:id="descriptionField" promptText="Description" prefRowCount="3"/>
+
+    <HBox spacing="10">
+        <ComboBox fx:id="priorityComboBox" promptText="Priority"/>
+        <ComboBox fx:id="categoryComboBox" promptText="Category"/>
+        <ComboBox fx:id="municipalityComboBox" promptText="Municipality"/>
+    </HBox>
+
+    <Button text="Submit Issue" onAction="#handleSubmitIssue"/>
+    <Label fx:id="messageLabel"/>
+
+    <Separator/>
+
+    <Label text="Comments" styleClass="title-label" style="-fx-font-size: 15px;"/>
+    <ListView fx:id="commentsListView" prefHeight="150"/>
+    <HBox spacing="10">
+        <TextField fx:id="newCommentField" promptText="Add a comment..." HBox.hgrow="ALWAYS"/>
+        <Button text="Post" onAction="#handlePostComment"/>
+    </HBox>
+
+    <Button text="Back to Dashboard" onAction="#handleBackToDashboard"/>
+</VBox>
