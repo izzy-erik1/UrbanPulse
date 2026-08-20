@@ -1,4 +1,4 @@
-package com.urbanpulse.api.config;
+package com.urbanpulse.config;
 
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
