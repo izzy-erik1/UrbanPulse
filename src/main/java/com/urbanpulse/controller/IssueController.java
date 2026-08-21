@@ -25,6 +25,7 @@ public class IssueController {
     private User currentUser;
     private Issue currentIssue; // set when viewing/commenting on an existing issue
 
+
     @FXML
     public void initialize() {
         priorityComboBox.getItems().addAll(Priority.values());
@@ -103,4 +104,8 @@ public class IssueController {
             messageLabel.setText("Could not return to dashboard.");
         }
     }
+
+
+
+
 }

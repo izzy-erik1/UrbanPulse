@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="fix: correct CORS filter ordering so headers apply before JWT auth rejection">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/controller/LookupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/CategoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/MunicipalityResponse.java" afterDir="false" />
+    <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="hh">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/dto/StatusUpdateRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/urbanpulse/api/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/controller/IssueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/api/controller/IssueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/IssueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/controller/IssueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/urbanpulse/api/controller/IssueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/urbanpulse/api/controller/IssueController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/urbanpulse/controller/IssueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/urbanpulse/controller/IssueController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -429,15 +431,29 @@
       <option name="project" value="LOCAL" />
       <updated>1787221294981</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="feat: add LookupController for categories and municipalities">
+      <option name="closed" value="true" />
+      <created>1787230209216</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1787230209216</updated>
+    </task>
+    <task id="LOCAL-00043" summary="hh">
+      <option name="closed" value="true" />
+      <created>1787230246646</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1787230246646</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" add login screen and controller" />
-    <MESSAGE value="add register screen and controller, verified signup+login end to end" />
     <MESSAGE value="add dashboard screen, wire login navigation to dashboard" />
     <MESSAGE value="add issue screen with creation and commenting" />
     <MESSAGE value="wire real navigation between login and register screens" />
@@ -461,6 +477,8 @@
     <MESSAGE value="refactor: move JWT secret and DB config into application.properties" />
     <MESSAGE value="chore: Phase 2 REST API complete &#10;v2 complete" />
     <MESSAGE value="fix: correct CORS filter ordering so headers apply before JWT auth rejection" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: correct CORS filter ordering so headers apply before JWT auth rejection" />
+    <MESSAGE value="feat: add LookupController for categories and municipalities" />
+    <MESSAGE value="hh" />
+    <option name="LAST_COMMIT_MESSAGE" value="hh" />
   </component>
 </project>

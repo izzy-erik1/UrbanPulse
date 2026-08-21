@@ -13,6 +13,7 @@ C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\Logi
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\MunicipalityResponse.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\NotificationResponse.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\RegisterRequest.java
+C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\StatusUpdateRequest.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\dto\UserResponse.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\api\security\JwtAuthFilter.java
 C:\Users\isrut\IdeaProjects\UrbanPulse\src\main\java\com\urbanpulse\ApiApplication.java

@@ -8,9 +8,10 @@ import com.urbanpulse.service.IssueService;
 import com.urbanpulse.service.UserService;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.*;
-
+import com.urbanpulse.api.dto.StatusUpdateRequest;
 import java.util.List;
 import java.util.stream.Collectors;
+
 
 @RestController
 @RequestMapping("/api/issues")
@@ -46,5 +47,10 @@ public class IssueController {
         );
 
         return new IssueResponse(issue);
+    }
+    @PatchMapping("/{id}/status")
+    public IssueResponse updateStatus(@PathVariable Long id, @RequestBody StatusUpdateRequest request) {
+        Issue updated = issueService.changeStatus(id, request.getStatus());
+        return new IssueResponse(updated);
     }
 }
