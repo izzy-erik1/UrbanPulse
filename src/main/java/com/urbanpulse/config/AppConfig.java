@@ -30,12 +30,12 @@ public class AppConfig {
         this.municipalityRepository = new HibernateMunicipalityRepository();
 
         // Services
+        this.notificationService = new NotificationService(notificationRepository);
         this.authService = new AuthService(userRepository);
         this.userService = new UserService(userRepository);
         this.municipalityService = new MunicipalityService(municipalityRepository);
-        this.issueService = new IssueService(issueRepository);
-        this.commentService = new CommentService(commentRepository);
-        this.notificationService = new NotificationService(notificationRepository);
+        this.issueService = new IssueService(issueRepository, notificationService);
+        this.commentService = new CommentService(commentRepository, notificationService);
     }
 
     public static synchronized AppConfig getInstance() {

@@ -23,6 +23,7 @@ com\urbanpulse\exception\InvalidIssueException.class
 com\urbanpulse\service\NotificationService.class
 com\urbanpulse\repository\UserRepository.class
 com\urbanpulse\util\JwtUtil.class
+com\urbanpulse\api\exception\GlobalExceptionHandler.class
 com\urbanpulse\controller\IssueController.class
 com\urbanpulse\model\Issue.class
 com\urbanpulse\controller\ProfileController.class
@@ -61,7 +62,6 @@ com\urbanpulse\api\dto\LoginRequest.class
 com\urbanpulse\ApiApplication.class
 com\urbanpulse\repository\impl\hibernate\HibernateUserRepository.class
 com\urbanpulse\repository\NotificationRepository.class
-com\urbanpulse\api\security\JwtAuthFilter.class
 com\urbanpulse\model\enums\UserRole.class
 com\urbanpulse\util\FileStorageUtil.class
 com\urbanpulse\api\dto\NotificationResponse.class

@@ -14,25 +14,33 @@ import java.util.List;
 public class CommentService {
 
     private final CommentRepository commentRepository;
+    private final NotificationService notificationService;
 
-    public CommentService(CommentRepository commentRepository) {
+    public CommentService(CommentRepository commentRepository, NotificationService notificationService) {
         this.commentRepository = commentRepository;
+        this.notificationService = notificationService;
     }
 
     public Comment addComment(String content, Issue issue, User author) {
         if (!ValidationUtil.isNotBlank(content)) {
             throw new InvalidIssueException("Comment content cannot be empty");
         }
-        Comment comment = new Comment(content, issue, author);
-        return commentRepository.save(comment);
-    }
+        Comment saved = commentRepository.save(new Comment(content, issue, author));
 
-    public List<Comment> getByIssue(Long issueId) {
-        return commentRepository.findByIssue(issueId);
+        User reporter = issue.getReporter();
+        if (reporter != null && !reporter.getId().equals(author.getId())) {
+            notificationService.notify(
+                    author.getName() + " commented on your issue: " + issue.getTitle(), reporter);
+        }
+        return saved;
     }
 
     public Comment addCommentFromIssueId(String content, Long issueId, User author, IssueService issueService) {
         Issue issue = issueService.getById(issueId);
         return addComment(content, issue, author);
+    }
+
+    public List<Comment> getByIssue(Long issueId) {
+        return commentRepository.findByIssue(issueId);
     }
 }

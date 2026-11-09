@@ -18,9 +18,12 @@ import java.util.List;
 public class IssueService {
 
     private final IssueRepository issueRepository;
+    private final NotificationService notificationService;
 
-    public IssueService(IssueRepository issueRepository) {
+    public IssueService(IssueRepository issueRepository, NotificationService notificationService) {
         this.issueRepository = issueRepository;
+        this.notificationService = notificationService;
+
     }
 
     public Issue createIssue(String title, String description, Priority priority,
@@ -41,7 +44,9 @@ public class IssueService {
     public Issue changeStatus(Long id, IssueStatus newStatus) {
         Issue issue = getById(id);
         issue.setStatus(newStatus);
-        return issueRepository.update(issue);
+        Issue updated = issueRepository.update(issue);
+        notificationService.notify("Your issue \"" + issue.getTitle() + "\" is now " + newStatus, issue.getReporter());
+        return updated;
     }
 
     public List<Issue> getByMunicipality(Long municipalityId) {
