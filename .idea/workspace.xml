@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3767af64-0fb4-44fb-8b67-8edb12f71d92" name="Changes" comment="feat: add update-status endpoint to IssueController">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/IssueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/service/IssueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/urbanpulse/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/urbanpulse/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/urbanpulse/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/urbanpulse/service/CommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/urbanpulse/service/IssueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/urbanpulse/service/IssueService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/urbanpulse/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urbanpulse/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/urbanpulse/util/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/urbanpulse/util/HibernateUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="100" />
+    <option name="cachedIndexableFilesCount" value="101" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,7 +62,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.ApiApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
     &quot;Maven.UrbanPulse [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
     &quot;Maven.UrbanPulse [test].executor&quot;: &quot;Run&quot;,
     &quot;Maven.urbanpulse [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
@@ -94,6 +96,29 @@
       <recent name="com.urbanpulse.repository.impl" />
       <recent name="com.urbanpulse.model" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.ApiApplication">
+    <configuration name="ApiApplication" type="Application" factoryName="Application">
+      <envs>
+        <env name="   DB_PASSWORD" value="your-new-password" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.urbanpulse.ApiApplication" />
+      <module name="UrbanPulse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.urbanpulse.MainApp" />
+      <module name="UrbanPulse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainApp" />
+      <item itemvalue="Application.ApiApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
